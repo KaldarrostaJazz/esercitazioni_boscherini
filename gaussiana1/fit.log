@@ -1,0 +1,37 @@
+*******************************************************************************
+Wed Mar 23 21:00:18 2022
+
+
+FIT:    data read from 'gaussiana1.txt' u 1:2:3 yerror
+        format = x:z:s
+        x range restricted to [-5.00000 : 5.00000]
+        #datapoints = 100
+function used for fitting: f(x)
+	f(x) = h * exp( - (x - u)**2 / (2 * s**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   h             u             s            
+   0 2.4876140955e+02   0.00e+00  1.14e+01    1.600000e+00   1.000000e-01   1.000000e+00
+   4 9.5011066568e+01  -1.58e-02  1.14e-03    1.593016e+00  -1.636909e-02   9.920001e-01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 95.0111
+rel. change during last iteration : -1.58183e-07
+
+degrees of freedom    (FIT_NDF)                        : 97
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.989695
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.979496
+p-value of the Chisq distribution (FIT_P)              : 0.538166
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+h               = 1.59302          +/- 0.013        (0.8164%)
+u               = -0.0163691       +/- 0.009354     (57.14%)
+s               = 0.992            +/- 0.009354     (0.9429%)
+
+correlation matrix of the fit parameters:
+                h      u      s      
+h               1.000 
+u              -0.000  1.000 
+s              -0.577  0.000  1.000 
+

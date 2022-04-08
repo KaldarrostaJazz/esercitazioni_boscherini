@@ -1,0 +1,40 @@
+*******************************************************************************
+Sat Apr  2 18:53:43 2022
+
+
+FIT:    data read from 'lorenziana-fondo-lineare.txt' u 1:2
+        format = x:z
+        #datapoints = 100
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = A * g / (g**2 + (x - u)**2) + m * x + q
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             g             u             m             q            
+   0 2.2076439054e+02   0.00e+00  3.76e+01    4.000000e+00   1.000000e+00  -4.600000e+01   1.400000e+00  -2.000000e+01
+   5 8.4163661380e-01  -1.35e-01  3.76e-04    6.662437e+00   1.272147e+00  -4.631344e+01   1.403634e+00  -2.185419e+01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 0.841637
+rel. change during last iteration : -1.35382e-06
+
+degrees of freedom    (FIT_NDF)                        : 95
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.094124
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00885933
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A               = 6.66244          +/- 0.106        (1.592%)
+g               = 1.27215          +/- 0.01794      (1.41%)
+u               = -46.3134         +/- 0.007989     (0.01725%)
+m               = 1.40363          +/- 0.004356     (0.3103%)
+q               = -21.8542         +/- 0.1838       (0.8409%)
+
+correlation matrix of the fit parameters:
+                A      g      u      m      q      
+A               1.000 
+g               0.906  1.000 
+u              -0.210 -0.155  1.000 
+m               0.575  0.457 -0.418  1.000 
+q               0.487  0.377 -0.420  0.993  1.000 

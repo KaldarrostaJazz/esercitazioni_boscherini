@@ -1,0 +1,50 @@
+
+
+*******************************************************************************
+Thu Mar 31 21:10:19 2022
+
+
+FIT:    data read from 'esponenziale-fondo.txt' u 1:2
+        format = x:z
+        #datapoints = 100
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = b + A * exp(- x / t)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   b             A             t            
+   0 4.2934238914e+00   0.00e+00  7.24e+00    3.200000e+00   1.300000e-01   1.110000e+00
+   5 1.9360023997e+00  -1.82e-04  7.24e-05    3.229671e+00   1.870270e-01   1.219375e+00
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 1.936
+rel. change during last iteration : -1.82339e-09
+
+degrees of freedom    (FIT_NDF)                        : 97
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.141276
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0199588
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+b               = 3.22967          +/- 0.0197       (0.61%)
+A               = 0.187027         +/- 0.008475     (4.531%)
+t               = 1.21937          +/- 0.01447      (1.187%)
+
+correlation matrix of the fit parameters:
+                b      A      t      
+b               1.000 
+A              -0.612  1.000 
+t              -0.566  0.992  1.000 
+
+
+*******************************************************************************
+Thu Mar 31 21:12:49 2022
+
+
+FIT:    data read from 'esponenziale-fondo.txt' u 1:2:(sqrt($2))
+        format = x:z:s
+        #datapoints = 100
+function used for fitting: f(x)
+	f(x) = b + A * exp(- x / t)
+BREAK: Need via and either parameter list or file
